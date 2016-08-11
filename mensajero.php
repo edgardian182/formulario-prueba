@@ -36,7 +36,7 @@
       // Especificamos los METADATOS del Header enviado al servidor
       // Los datos son concatenados en lugar de usar un Array con .=
       // Los servidores web solicitan que use CamelCase al definir parámetros del Header
-      $header = "MINE-Version: 1.0\r\n";
+      $header = "MIME-Version: 1.0\r\n";
       $header .= "Content-Type: text/html; charset=UTF-8\r\n";
       $header .= "From: fiudesco.com <fiudesco.colombia@gmail.com>\r\n";
       $header .= "Reply-To: fiudesco.colombia@gmail.com\r\n";
